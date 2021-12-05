@@ -1,0 +1,23 @@
+/* general styles */
+html,
+body {
+    margin: 0;
+}
+
+
+/* layout styles */
+h1, 
+p {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+/* typography styles */
+/* components styles */
