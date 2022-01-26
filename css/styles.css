@@ -19,5 +19,28 @@ p {
     margin-top: 0;
 }
 
+/* small screens */
+@media (max-width: 426px) {
+    html {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    body {
+        grid-column: 2 / -2;
+    }
+}
+
+/* large screens */
+@media (max-width: 1440px) {
+    html {
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+    }
+
+    body {
+        grid-column: 2 / -2;
+    }
+}
 /* typography styles */
 /* components styles */
