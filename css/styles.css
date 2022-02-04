@@ -43,6 +43,10 @@ p {
     }
 }
 /* typography styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* components styles */
 .text-input {
     width: 100%;
